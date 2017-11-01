@@ -1,0 +1,64 @@
+body {
+	background-image: url("../images/green_dust_scratch.png");
+}
+
+h1 {
+	
+	text-rendering: auto;
+	background-color: #4aaaa5;
+	width: 30%;
+	padding: 25px;
+	margin-left: 10%;
+	
+}
+
+.boxHeader {
+	width: auto;
+	height: 90px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border: solid 1px;
+
+}
+.boxLinkHeader {
+	width: 100px;
+	background-color: #aaa;
+	color: #777;
+	text-align: center;
+}
+
+.boxContent{
+	background-color: #fff;
+	width: 650px;
+}
+
+.boxPicPortfolio {
+	width: 275px;
+	color: #fff;
+	background-color: #4aaaa5;
+}
+
+.boxLinks{
+	width: 30%;
+	background-color: #fff;
+}
+
+.boxFooter{
+	text-align: center;
+
+	height: 80px;
+	background-color: #666666;
+	position: static;
+}
+
+.fontWhite {
+	color: #fff;
+}
+
+.fontRegColor {
+	color: #777;
+}
+
+.fontTeal {
+	color: #4aaaa5;
+}
