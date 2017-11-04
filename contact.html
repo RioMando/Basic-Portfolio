@@ -11,10 +11,11 @@
 </head>
 
 <body>
-
-	<!-- Infromation in the head of the page -->
-	<header class="boxHeader">
-		<h1 class="fontWhite">Armando Robles</h1>
+	
+	<!-- This is the header of the page, including the links to Portfolio and Contact -->
+	<div class="boxHeader">
+		<div class="boxName">Armando Robles</div>
+	
 
 		<a href="index.html" rel="stylesheet" type="text/html">
 			<div class="boxLinkHeader">
@@ -33,51 +34,63 @@
 				Contact
 			</div>
 		</a>
+	</div>
 
-	</header>
-
-<br><br><br><br><br>
 	
-	<!-- Box with variable infromation
-		In this case he way to Contact Me -->
+	
+<!-- Box with variable information
+		In this case the way to contact me -->
 	<div class="boxContent">
 
-		<h2 class="fontTeal">Contact</h2>
-	
-		<div class="fontRegColor">
-			I foods, to cooke them as well to try it.
+		<div class="titleContent">Contact</div>
+		<div class="boxDataContact">
+			<form>
+				<br>
+  				Name:<br>
+  				<input class="oneLine" type="text" name="name">
+  				<br><br>
+  				Email:<br>
+  				<input class="oneLine" type="text" name="email">
+  				<br><br>
+  				Message:<br>
+  				<input class="multLines" type="text" name="messg">
+				<br><br>
+				<input type="submit">
+			</form>
 		</div>
 
 	</div>
 	
 	
-	<!-- Info to contact me -->
-	<div class="boxLinks">
-		<h2 class="fontTeal"> Connect with me</h2>
-	
-		<a href="https://github.com/RioMando" target="_blank">
-			<img border="0" alt="Armando's GitHub page" src="assets/images/if_github_253591.png" width="75" height="75">
-		</a>
+	<!-- Info social media to contact me -->
+	<div class="boxLinksSocial">
+		
+		<div class="titleSocial">
+			Connect with Me
+		</div>
+		
+		<div class="boxIcons">	
+			<a href="https://github.com/RioMando" target="_blank">
+				<img class="boxPicSocial" src="assets/images/if_github_253591.png" alt="GitHub">
+			</a>
 
-		<a href="https://www.linkedin.com/in/armando-r-a400a496/" target="_blank">
-			<img border="0" alt="Armando's LinkedIn page" src="assets/images/linkedin_square_color-128.png" width="75" height="75">
-		</a>
+			<a href="https://www.linkedin.com/in/armando-r-a400a496/" target="_blank">
+				<img class="boxPicSocial" src="assets/images/linkedin_square_color-128.png" alt="LinkedIn">
+			</a>
 
-		<a href="https://stackoverflow.com/users/8624626/mando-r" target="_blank">
-			<img border="0" alt="Armando's StackOverflow page" src="assets/images/if_overflow_334695.png" width="75" height="75">
-		</a>
-
+			<a href="https://stackoverflow.com/users/8624626/mando-r" target="_blank">
+				<img class="boxPicSocial" src="assets/images/if_overflow_334695.png" alt="StackOverflow">
+			</a>
+		</div>
 	</div>
-	
-<br>
 
 
 	<!-- Botton line box -->	
+	
 	<footer class="boxFooter">
-		<h4 class="fontWhite">&copy Copyright 2017 Armando Robles</h4>
+		&copy Copyright 2017 Armando Robles
 	</footer>
 
 
-
 </body>
-</html>
+</html>	
