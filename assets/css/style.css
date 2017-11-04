@@ -4,11 +4,11 @@ body {
     color: #777;
 }
 
-/*  ***  Header  ***  */
+/******************/
+/**    Header    **/
 
 .boxHeader {
     position: fixed;
-   /* text-rendering: auto;*/
     width: 100%;
     background-color: #fff;
     margin: 0;
@@ -43,52 +43,6 @@ body {
 
 
 /***************************/
-/*      Content Box        */
-.boxContent {
-    clear: both;
-    margin-top: 100px;
-    margin-left: 70px;
-    background-color: #fff;
-    width: 650px;
-    height: 350px;
-    
-}
-
-.titleContent {
-    color: #4aaaa5;
-    font-size: 25px;
-    width: 600px;
-    margin: solid 1px;
-    margin-left: 25px;
-    border-bottom: 2px solid #777;
-    padding: 12.5px 0px;
-}
-
-img {
-    margin: 0px 25px;
-    width: 170px;
-    height: auto;
-    float: left;
-    overflow: auto;
-}
-
-p {
-    margin: 30px;
-}
-
-.textAbout {
-    color: #777;
-    float: left;
-}
-
-
-.boxPicPortfolio {
-    width: 275px;
-    color: #fff;
-    background-color: #4aaaa5;
-}
-
-/***************************/
 /*  Social Links */
 
 .boxLinksSocial{
@@ -97,7 +51,7 @@ p {
     width: 270px;
     height: 200px;
     background-color: #fff;
-    margin: -350px 0px 0px 790px;
+    margin: 120px 0px 0px 790px;
 }
  
 .titleSocial {
@@ -128,18 +82,63 @@ p {
 
 
 /***************************/
+/*      Content Box        */
+.boxContent {
+    float: left;
+    position: absolute;
+    width: 650px;
+    margin-top: 120px;
+    margin-left: 70px;
+    background-color: #fff;
+    height: 350px;
+    
+}
+
+.titleContent {
+    color: #4aaaa5;
+    font-size: 25px;
+    width: 600px;
+    margin: solid 1px;
+    margin-left: 25px;
+    border-bottom: 2px solid #777;
+    padding: 12.5px 0px;
+}
+
+img {
+    margin: 0px 25px;
+    width: 170px;
+    height: auto;
+    float: left;
+    overflow: auto;
+}
+
+p {
+    margin: 30px;
+}
+
+
+.boxPicPortfolio {
+    width: 275px;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+
+
+/***************************/
 /*  Footer    */
 
 .boxFooter{
     clear: both;
-    position: absolute;
+    float: left;
+    position: relative;
     font-size: 15px;
-    width: 100%;
+    width: 1500px;
     text-align: center;
     color: #fff;
     height: 20px;
     background-color: #666666;
     padding: 20px;
     border-top: 7px solid #4aaaa5;
-    margin-top: 40px;
+    margin-top: 200px;
 }
