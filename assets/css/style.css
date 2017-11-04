@@ -1,64 +1,150 @@
 body {
-	background-image: url("../images/green_dust_scratch.png");
+    background-image: url("../images/green_dust_scratch.png");
+    margin:0;
+    color: #777;
 }
 
-h1 {
-	
-	text-rendering: auto;
-	background-color: #4aaaa5;
-	width: 30%;
-	padding: 25px;
-	margin-left: 10%;
-	
-}
+/*  ***  Header  ***  */
 
 .boxHeader {
-	width: auto;
-	height: 90px;
-	background-color: #ffffff;
-	border-color: #cccccc;
-	border: solid 1px;
-
+    position: fixed;
+   /* text-rendering: auto;*/
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    height: 75px;
+    border-bottom: 2px solid #777;
 }
+
+.boxName {
+   
+    float: left;
+    font-size: 22px;
+    font-family: arial;
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 170px;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 520px;
+}
+
 .boxLinkHeader {
-	width: 100px;
-	background-color: #aaa;
-	color: #777;
-	text-align: center;
+    display: inline-block;
+    float: left;
+    width: 90px;
+    color: #777;
+    text-align: center;
+    font-size: 25
+    margin-left:100px;
+    margin-top: 25px
 }
 
-.boxContent{
-	background-color: #fff;
-	width: 650px;
+
+/***************************/
+/*      Content Box        */
+.boxContent {
+    clear: both;
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: #fff;
+    width: 650px;
+    height: 300px;
 }
+
+.titleContent {
+    color: #4aaaa5;
+    font-size: 25px;
+    width: 600px;
+    margin: solid 1px;
+    margin-left: 25px;
+    border-bottom: 2px solid #777;
+    padding: 12.5px 0px;
+}
+
+img {
+    margin: 0px 25px;
+    width: 170px;
+    height: auto;
+    float: left;
+    overflow: auto;
+}
+
+p {
+    margin: 30px;
+}
+
+.textAbout {
+    color: #777;
+    float: left;
+}
+
 
 .boxPicPortfolio {
-	width: 275px;
-	color: #fff;
-	background-color: #4aaaa5;
+    width: 275px;
+    color: #fff;
+    background-color: #4aaaa5;
 }
 
-.boxLinks{
-	width: 30%;
-	background-color: #fff;
+/***************************/
+/*  Social Links */
+
+.boxLinksSocial{
+    float: left;
+    position: relative;
+    width: 270px;
+    height: 200px;
+    background-color: #fff;
+    margin: -300px 0px 0px 790px;
 }
+ 
+.titleSocial {
+    color: #4aaaa5;
+    font-size: 20px;
+    width: 220px;
+    margin: 30px 0px 0px 30px;
+    border-bottom: 2px solid #777;
+    padding: 15px 0px;
+  }
+
+.boxPicSocial {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+/***************************/
+/*  Footer    */
 
 .boxFooter{
-	text-align: center;
-
-	height: 80px;
-	background-color: #666666;
-	position: static;
+    clear: both;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height: 20px;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 40px;
 }
 
-.fontWhite {
-	color: #fff;
-}
 
 .fontRegColor {
-	color: #777;
+    color: #777;
+    float: left;
 }
 
 .fontTeal {
-	color: #4aaaa5;
+    color: #4aaaa5;
 }
+
