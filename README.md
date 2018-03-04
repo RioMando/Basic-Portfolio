@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Template to develope a portfolio, using just HTML and CSS.
+Template for a personal portfolio, using just HTML and CSS.
