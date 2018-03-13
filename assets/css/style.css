@@ -4,10 +4,15 @@ body {
     color: #777;
 }
 
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 /******************/
 /**    Header    **/
 
-.boxHeader {
+header {
     position: fixed;
     width: 100%;
     background-color: #fff;
@@ -26,13 +31,14 @@ body {
     background-color: #4aaaa5;
     width: 200px;
     padding: 25px 0px;
-    margin-left: 100px;
-    margin-right: 490px;
+    margin: 0;
+    top: 0;
+    left: 0;
 }
 
 .boxLinkHeader {
     display: inline-block;
-    float: left;
+    float: right;
     width: 90px;
     color: #777;
     text-align: center;
@@ -46,15 +52,15 @@ body {
 /*  Social Links */
 
 .boxLinksSocial{
-    float: left;
-    position: relative;
+    float: right;
     width: 270px;
     height: 200px;
     background-color: #fff;
-    margin: 120px 0px 0px 790px;
+    margin-top: 120px;
 }
  
 .titleSocial {
+    clear: both;
     color: #4aaaa5;
     font-size: 20px;
     width: 220px;
@@ -88,12 +94,12 @@ body {
     position: absolute;
     width: 650px;
     margin-top: 120px;
-    margin-left: 70px;
     background-color: #fff;
     height: 350px;
 }
 
 .titleContent {
+    clear: both;
     color: #4aaaa5;
     font-size: 25px;
     width: 600px;
@@ -115,15 +121,6 @@ p {
 }
 
     /* Styles used in portfolio page */
-.boxContentPort {
-    float: left;
-    position: absolute;
-    width: 650px;
-    margin-top: 120px;
-    margin-left: 70px;
-    background-color: #fff;
-    height: 55px;
-}
 
 .boxPicsProy{
     width: 650px;
